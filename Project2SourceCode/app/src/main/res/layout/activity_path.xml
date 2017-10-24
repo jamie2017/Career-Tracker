@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#888" />
+
+    <com.example.username.menulibrary.AlphaTabsIndicator
+        android:id="@+id/alphaIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+
+        <com.example.username.menulibrary.AlphaTabView
+            android:id="@+id/PathsBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:tabIconNormal="@mipmap/ic_date_range_black_24dp"
+            app:tabIconSelected="@mipmap/ic_date_range_blue_24dp"
+            app:tabText="Paths"
+            app:tabTextSize="13sp"
+            app:textColorNormal="#303538"
+            app:textColorSelected="#137fd0" />
+
+
+    </com.example.username.menulibrary.AlphaTabsIndicator>
+</LinearLayout>

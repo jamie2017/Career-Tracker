@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sunny-lightning-166605",
+  "private_key_id": "ec504c61ea649db951e6d52da69d1ebcc64b8778",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDTLWLXdvVmTd55\nNA2Eh1zw5qb5REulCviSMvvQaiEGmux7GupaLFTnLK9sirtlr8LfdzTIIP0iAm/O\nGZ6w0IVXccBxraxqtrqbY6Q+8IcR+JCbbg7x2UaQ92oL2nW/jijdSBIPTG69Ba25\nYKmFP4cgJTCyed20pxHq3zPBA5D9DYqla76nbscCc9d0iPfeZRE35vQAtbocFbwQ\nH0A0s9S7b5Yv5M4jzS3NdlU1PnhqvU9bAMLRVYewZqYywdCMyoC2LaN9RxldQqg6\noWqRyb0XBU0w/blicGPKWnnXihKuoW+koM/QubHS+xdmnG35kY76xxKo+y9uuszC\ndFJCRvaZAgMBAAECggEAPNiP6Ssia/a1ylBgMLZb5iFfLOUrsoMlueIswhFCMMgE\nqTfJHHA3imBKr0iN1C+/Q2nycFNo/BqdolGpcqKyOM7Sty5mRl0eCVW9ZlEhaeEn\nsVEVx0NmXLCdAotQcAAC8Dcq1POd2KLBOm+KiJUUVwPAMzx/z+RvejATlmJzrSVq\nXul+UXgS3sX84bgpAfwjRsMj0LhrERBwe1wE1IojP4bYIea7mnf+4i/fAgRK9OXB\nTKA0L0DuIctAVoRUktGqOgq92rgHfA60WrXPjIkom+rwbs3wg7T1WAj7nrRHgra/\n6uIFoGZPk1AXMnnT7W8RIFUpy55119yQ+cO4UXU8cQKBgQD51i36Fg7Tf4mW+ArR\n3rtjJ+3H3Mm1KEwF7tXaqbFCInMIX/Q+0Z8/PlrmriwK5kJXzYvuI9U+Lb9+Mcjr\nvuRB661NAQz3NOxc7BR1V+iUjk4JjlK/pumr4ORkNihjh4Xx8lTEkylcvC02QmEC\n4VhxGlpXbPQtar0kqEOMn0fPbQKBgQDYYw6SfPrBg750D83sKW4zeta+MY6q5if3\nj0Trkz1cAed6KGbrrup3dPH1Lc65QkHqcAfOfU3IDoRd5YzzS31hRVfe/+xJEMI0\nIcvRqTOOjPqciILUE1RhRKfpaUGa4ogdtAGNzckqE8kWPL49UnODbZCBy7Po48l6\nMXjomSWMXQKBgQCaA7gKMKjpJvlZ8QUyhb09DjNefzR1kibzjV2WU//rRjNl2UlH\npJAoO7dr97k86t/BIvx9TOe7UhZ3pBc5hU9PeAs4qkok5yJC0mJ2SEAfvG5NI8jN\nTwdEJvqE8IILgVNIaNxq5lGcUoEIrvkA/ow4BUfmF0ub5+479+LUgKiTLQKBgGQc\nyFQr8JPxkP7/hOU7cdntfkb2hKw62cjmhxt6vsu/scnJwXxPK/liqMMnk1oQ9pAx\njtsRDBh/5uvOVX0GsxZ6z6HDxB013LPj4vm4j7rnLNeZLPZTjxmFey45XXn8Tr93\nVbS2vdhy2Pkp11ZlvD3VRiNXDIC2SrP3CZqLqFydAoGBAOdQXXy8OK4rIH1E7eYY\nS8nbTst3sm4FT2la5VRhBa9dkopO7IZaSjn08gkBt+8QNzePPY8geoNdrZi2NfPa\nI4BWBfN+7TSzQBaNyyZAxAabwAyXh/ni4B4tV0zHYBR88iKBeYrRBjZjaW0UuwMc\nusnyJ3lXgchixKH1fwxt3Vz+\n-----END PRIVATE KEY-----\n",
+  "client_email": "careertrackerv2@sunny-lightning-166605.iam.gserviceaccount.com",
+  "client_id": "110831114582375206193",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/careertrackerv2%40sunny-lightning-166605.iam.gserviceaccount.com"
+}

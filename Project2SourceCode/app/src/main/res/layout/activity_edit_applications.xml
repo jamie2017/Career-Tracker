@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.username.careertracker.EditApplications"
+    android:orientation="horizontal"
+    android:background="#f0eff5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:paddingTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp">
+
+            <Spinner
+                android:id="@+id/position_type"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/JobType_position"
+                android:layout_above="@+id/contact_title"
+                android:layout_alignLeft="@+id/spinner2"
+                android:layout_alignStart="@+id/spinner2"
+                android:layout_marginBottom="27dp"
+                android:layout_alignRight="@+id/spinner2"
+                android:layout_alignEnd="@+id/spinner2" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorGray" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="320dp"
+                android:background="@color/colorGray" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="420dp"
+                android:background="@color/colorGray" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="13dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                app:srcCompat="@mipmap/ic_business_black_24dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@mipmap/ic_bookmark_black_24dp"
+                android:layout_below="@+id/view1"
+                android:layout_toLeftOf="@+id/company_name"
+                android:layout_toStartOf="@+id/company_name" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_perm_contact_calendar_black_24dp"
+                android:layout_alignTop="@+id/company_contacts"
+                android:layout_alignLeft="@+id/imageView4"
+                android:layout_alignStart="@+id/imageView4" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_alarm_black_24dp"
+                android:layout_alignTop="@+id/dateButton"
+                android:layout_alignLeft="@+id/imageView5"
+                android:layout_alignStart="@+id/imageView5"
+                android:layout_marginTop="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_date_range_black_24dp"
+                android:layout_alignTop="@+id/cur_step"
+                android:layout_alignLeft="@+id/imageView6"
+                android:layout_alignStart="@+id/imageView6" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/ic_comment_black_24dp"
+                android:layout_alignTop="@+id/Remark"
+                android:layout_alignLeft="@+id/imageView7"
+                android:layout_alignStart="@+id/imageView7" />
+
+            <AutoCompleteTextView
+                android:id="@+id/company_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_toRightOf="@+id/imageView3"
+                android:hint="Company Name"
+                android:textSize="14dp"
+                android:layout_alignBottom="@+id/view1"
+                android:layout_alignParentTop="true" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/JobType_time"
+                android:layout_alignBottom="@+id/imageView4"
+                android:layout_alignLeft="@+id/company_name"
+                android:layout_alignStart="@+id/company_name"
+                android:layout_marginBottom="9dp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/company_contacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Contacts"
+                android:textSize="14dp"
+                android:layout_above="@+id/imageView7"
+                android:layout_alignLeft="@+id/position_type"
+                android:layout_alignStart="@+id/position_type"
+                android:layout_marginBottom="11dp"
+                android:layout_alignRight="@+id/position_type"
+                android:layout_alignEnd="@+id/position_type" />
+
+            <Spinner
+                android:id="@+id/Job_Source"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBaseline="@+id/spinner2"
+                android:layout_alignBottom="@+id/spinner2"
+                android:layout_alignEnd="@+id/company_name"
+                android:layout_alignRight="@+id/company_name"
+                android:entries="@array/Job_Source" />
+
+            <Spinner
+                android:id="@+id/contact_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/JobTitle"
+                android:layout_alignRight="@+id/checkBox7"
+                android:layout_alignEnd="@+id/checkBox7"
+                android:layout_alignBottom="@+id/imageView5"
+                android:layout_alignLeft="@+id/checkBox7"
+                android:layout_alignStart="@+id/checkBox7" />
+
+            <Spinner
+                android:id="@+id/cur_step"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView6"
+                android:layout_alignLeft="@+id/company_contacts"
+                android:layout_alignStart="@+id/company_contacts"
+                android:layout_marginBottom="17dp"
+                android:ems="10"
+                android:entries="@array/PathSteps"
+                android:hint="Job Path Description"
+                android:inputType="textPersonName"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/Remark"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="Remark"
+                android:inputType="textMultiLine"
+                android:maxLines="3"
+                android:minLines="2"
+                android:scrollbars="vertical"
+                android:textSize="14dp"
+                android:layout_below="@+id/view2"
+                android:layout_alignLeft="@+id/dateButton"
+                android:layout_alignStart="@+id/dateButton"
+                android:layout_alignRight="@+id/dateButton"
+                android:layout_alignEnd="@+id/dateButton">
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/dateButton"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="4 May 2017 13:00"
+                android:textSize="18sp"
+                android:layout_above="@+id/Remark"
+                android:layout_alignLeft="@+id/cur_step"
+                android:layout_alignStart="@+id/cur_step" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Important"
+                android:layout_alignBottom="@+id/position_type"
+                android:layout_alignRight="@+id/Job_Source"
+                android:layout_alignEnd="@+id/Job_Source"
+                android:layout_alignLeft="@+id/Job_Source"
+                android:layout_alignStart="@+id/Job_Source" />
+
+            <EditText
+                android:id="@+id/rounds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:layout_alignBottom="@+id/imageView12"
+                android:layout_alignLeft="@+id/contact_title"
+                android:layout_alignStart="@+id/contact_title"
+                android:layout_alignRight="@+id/checkBox7"
+                android:layout_alignEnd="@+id/checkBox7" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_input_add"
+                android:layout_alignTop="@+id/cur_step"
+                android:layout_toLeftOf="@+id/rounds"
+                android:layout_toStartOf="@+id/rounds" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/button5"
+                android:layout_toRightOf="@+id/button5"
+                android:background="#479ff3"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="SAVE"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:background="#ce3f3e"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="DELETE"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+
+</android.support.v4.widget.NestedScrollView>

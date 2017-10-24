@@ -1,0 +1,116 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.username.careertracker.Fragment.ApplicationsFragment"
+    android:id="@+id/Applications_Fragment"
+    android:background="#f0eff5">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:padding="20dp">
+
+        <ListView
+            android:id="@+id/card_listView"
+            android:layout_width="wrap_content"
+            android:layout_height="429dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:dividerHeight="10dp"
+            android:listSelector="@android:color/transparent" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:background="@color/colorWhite">
+
+
+        <TextView
+            android:id="@+id/pinNumDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/pinInterviewTime"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/switch_ft_ps"
+            android:hint="Days"
+            android:paddingRight="15dp"
+            android:textColor="@color/black_overlay"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/pinComName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView13"
+            android:layout_alignStart="@+id/imageView13"
+            android:layout_alignTop="@+id/imageView13"
+            android:layout_marginLeft="54dp"
+            android:layout_marginStart="54dp"
+            android:hint="Google Interview"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pinInterviewTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView13"
+            android:layout_alignLeft="@+id/pinComName"
+            android:layout_alignStart="@+id/pinComName"
+            android:layout_marginStart="15dp"
+            android:hint="End Day: 2017-05-01"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/pinDayLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pinComName"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@+id/pinComName"
+            android:layout_toRightOf="@+id/pinComName"
+            android:hint="4"
+            android:textColor="@color/black_overlay"
+            android:textSize="40sp" />
+
+        <Switch
+            android:id="@+id/switch_ft_ps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/pinComName"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:textOff="Future"
+            android:textOn="Past"
+            android:textSize="12dp"/>
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@mipmap/goal_96" />
+    </RelativeLayout>
+
+</FrameLayout>
+
+
+
